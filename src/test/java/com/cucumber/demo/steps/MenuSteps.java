@@ -1,16 +1,16 @@
-package steps;
+package com.cucumber.demo.steps;
 
 
-import driver.DriverManager;
+import com.cucumber.demo.driver.DriverManager;
+import com.cucumber.demo.pages.AdsListPage;
+import com.cucumber.demo.pages.FavoritesPage;
+import com.cucumber.demo.pages.HomePage;
+import com.cucumber.demo.pages.ProductPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.interactions.Actions;
-import pages.AdsListPage;
-import pages.FavoritesPage;
-import pages.HomePage;
-import pages.ProductPage;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 

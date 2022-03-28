@@ -1,6 +1,6 @@
-package pages;
+package com.cucumber.demo.pages;
 
-import driver.DriverManager;
+import com.cucumber.demo.driver.DriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 

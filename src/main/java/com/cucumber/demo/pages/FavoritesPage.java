@@ -1,4 +1,4 @@
-package pages;
+package com.cucumber.demo.pages;
 
 import org.openqa.selenium.By;
 

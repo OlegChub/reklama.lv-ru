@@ -1,6 +1,6 @@
-package runner;
+package com.cucumber.demo.runner;
 
-import driver.DriverManager;
+import com.cucumber.demo.driver.DriverManager;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
